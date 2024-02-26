@@ -1,0 +1,40 @@
+diff --git a/src/modules/interface/estimator_kalman.h b/src/modules/interface/estimator_kalman.h
+index 9e2d3929..15391413 100644
+--- a/src/modules/interface/estimator_kalman.h
++++ b/src/modules/interface/estimator_kalman.h
+@@ -57,6 +57,7 @@
+ #include "stabilizer_types.h"
+ 
+ void estimatorKalmanInit(void);
++void estimatorKalmanInitToPose(float x, float y, float z, float yaw);
+ bool estimatorKalmanTest(void);
+ void estimatorKalman(state_t *state, const uint32_t tick);
+ 
+diff --git a/src/modules/src/estimator_kalman.c b/src/modules/src/estimator_kalman.c
+index 423e62fc..4553c2ea 100644
+--- a/src/modules/src/estimator_kalman.c
++++ b/src/modules/src/estimator_kalman.c
+@@ -425,7 +425,11 @@ static bool updateQueuedMeasurements(const uint32_t tick) {
+ }
+ 
+ // Called when this estimator is activated
+-void estimatorKalmanInit(void)
++void estimatorKalmanInit(void) {
++  estimatorKalmanInitToPose(0, 0, 0, 0);
++}
++
++void estimatorKalmanInitToPose(float x, float y, float z, float yaw)
+ {
+   accAccumulator = (Axis3f){.axis = {0}};
+   gyroAccumulator = (Axis3f){.axis = {0}};
+@@ -435,6 +439,10 @@ void estimatorKalmanInit(void)
+   outlierFilterReset(&sweepOutlierFilterState, 0);
+ 
+   kalmanCoreDefaultParams(&coreParams);
++  coreParams.initialX = x;
++  coreParams.initialY = y;
++  coreParams.initialZ = z;
++  coreParams.initialYaw = yaw;
+   kalmanCoreInit(&coreData, &coreParams);
+ }
+ 

@@ -1,0 +1,6 @@
+[submodule "crazyflie-firmware"]
+	path = crazyflie-firmware
+	url = https://github.com/bitcraze/crazyflie-firmware.git
+[submodule "spiflash_driver"]
+	path = spiflash_driver
+	url = https://github.com/pellepl/spiflash_driver.git

@@ -1,0 +1,88 @@
+SYS: ----------------------------
+SYS: Crazyflie 2.1 is up and running!
+SYS: Build 26:f7df7f334be5 (2022.01 +26) MODIFIED
+SYS: I am 0x383535303539470900240035 and I have 1024KB of flash!
+CFGBLK: v1, verification [OK]
+DECK_CORE: 1 deck(s) found
+DECK_CORE: Calling INIT on driver bcFlow2 for deck 0
+ZR2: Z-down sensor [OK]
+PMW: Motion chip id: 0x49:0xB6
+IMU: BMI088: Using I2C interface.
+IMU: BMI088 Gyro connection [OK].
+IMU: BMI088 Accel connection [OK]
+IMU: BMP388 I2C connection [OK]
+ESTIMATOR: Using Kalman (2) estimator
+CONTROLLER: Using PID (1) controller
+MTR-DRV: Using brushed motor driver
+SYS: About to run tests in system.c.
+SYS: NRF51 version: 2022.1
+EEPROM: I2C connection [OK].
+STORAGE: Storage check [OK].
+IMU: BMI088 gyro self-test [OK]
+DECK_CORE: Deck 0 test [OK].
+SYS: Self test passed!
+STAB: Wait for sensor calibration...
+SYS: Free heap: 2672 bytes
+Flash JEDEC: 20 BA 16
+STAB: Ready to fly.
+SWARM ADDR: 0
+Configured for 4 ToF sensor(s)
+Sensor 0 started ranging!
+Sensor 1 started ranging!
+Sensor 2 started ranging!
+Sensor 3 started ranging!
+Waiting for start command...
+Start
+0/0
+0/1
+0/2
+0/3
+0/4
+0/5
+0/6
+0/7
+0/8
+0/9
+0/10
+0/11
+0/12
+0/13
+0/14
+0/15
+Land
+Run SLAM...
+Fetching 1/0...
+Starting ICP (sizes: 475 452)
+ICP T:-0.06 0.03 R:-0.0
+Constraint: 16 -> 0: 0.03 -0.0 -0.0
+Fetching 1/2...
+Starting ICP (sizes: 472 468)
+ICP T:-0.08 0.05 R:0.0
+Constraint: 18 -> 2: -0.04 0.13 -0.03
+Starting ICP (sizes: 475 472)
+ICP T:-0.23 0.17 R:-0.0
+Constraint: 8 -> 0: 0.10 -0.07 0.01
+Fetching 1/8...
+Starting ICP (sizes: 475 466)
+ICP T:-0.33 -0.03 R:-0.02
+Constraint: 24 -> 0: 0.12 0.04 0.03
+Fetching 1/4...
+Starting ICP (sizes: 428 436)
+ICP T:0.12 0.29 R:-0.01
+Constraint: 20 -> 12: 0.0 -0.08 -0.06
+Fetching 1/12...
+Starting ICP (sizes: 429 423)
+ICP T:-0.10 0.20 R:-0.04
+Constraint: 28 -> 4: 0.09 0.01 0.07
+Fetching 1/6...
+Starting ICP (sizes: 416 405)
+ICP T:0.10 -0.0 R:-0.01
+Constraint: 22 -> 10: 0.09 0.03 0.01
+Fetching 1/10...
+Starting ICP (sizes: 400 409)
+ICP T:-0.09 0.05 R:-0.01
+Constraint: 26 -> 6: -0.04 0.04 0.0
+Fetching 1/15...
+Starting ICP (sizes: 476 463)
+ICP T:-0.27 0.20 R:0.0
+Constraint: 31 -> 15: 0.06 -0.07 -0.02

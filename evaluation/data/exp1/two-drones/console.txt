@@ -1,0 +1,187 @@
+SYS: ----------------------------
+SYS: Crazyflie 2.1 is up and running!
+SYS: Build 26:f7df7f334be5 (2022.01 +26) MODIFIED
+SYS: I am 0x20383347344D50080027004D and I have 1024KB of flash!
+CFGBLK: v1, verification [OK]
+DECK_CORE: 1 deck(s) found
+DECK_CORE: Calling INIT on driver bcFlow2 for deck 0
+ZR2: Z-down sensor [OK]
+PMW: Motion chip id: 0x49:0xB6
+IMU: BMI088: Using I2C interface.
+IMU: BMI088 Gyro connection [OK].
+IMU: BMI088 Accel connection [OK]
+IMU: BMP388 I2C connection [OK]
+ESTIMATOR: Using Kalman (2) estimator
+CONTROLLER: Using PID (1) controller
+MTR-DRV: Using brushed motor driver
+SYS: About to run tests in system.c.
+SYS: NRF51 version: 2022.0
+EEPROM: I2C connection [OK].
+STORAGE: Storage check [OK].
+IMU: BMI088 gyro self-test [OK]
+DECK_CORE: Deck 0 test [OK].
+SYS: Self test passed!
+STAB: Wait for sensor calibration...
+SYS: Free heap: 2672 bytes
+Flash JEDEC: 20 BA 16
+SWARM ADDR: 0
+Configured for 4 ToF sensor(s)
+Sensor 0 started ranging!
+Sensor 1 started ranging!
+STAB: Ready to fly.
+ESTKALMAN: State out of bounds, resetting
+Sensor 2 started ranging!
+Sensor 3 started ranging!
+Waiting for start command...
+Start
+0/0
+0/1
+0/2
+0/3
+[CF] Connected to radio://0/80/2M/E7E7E7E7E7?rate_limit=10
+0/4
+0/5
+0/6
+0/7
+0/8
+0/9
+0/10
+0/11
+0/12
+0/13
+0/14
+0/15
+Land
+ESTKALMAN: State out of bounds, resetting
+ESTKALMAN: State out of bounds, resetting
+ESTKALMAN: State out of bounds, resetting
+ESTKALMAN: State out of bounds, resetting
+ESTKALMAN: State out of bounds, resetting
+ESTKALMAN: State out of bounds, resetting
+ESTKALMAN: State out of bounds, resetting
+ESTKALMAN: State out of bounds, resetting
+ESTKALMAN: State out of bounds, resetting
+ESTKALMAN: State out of bounds, resetting
+ESTKALMAN: State out of bounds, resetting
+Run SLAM...
+Fetching 1/0...
+Starting ICP (sizes: 473 451)
+ICP T:0.03 -0.0 R:0.01
+Constraint: 16 -> 0: -0.01 0.03 -0.0
+Fetching 1/2...
+Starting ICP (sizes: 476 465)
+ICP T:0.0 0.04 R:-0.01
+Constraint: 18 -> 2: 0.01 0.22 -0.03
+Starting ICP (sizes: 473 480)
+ICP T:0.46 0.32 R:0.04
+Constraint: 8 -> 0: 0.0 0.01 -0.02
+Fetching 1/8...
+Starting ICP (sizes: 473 466)
+ICP T:0.21 0.09 R:-0.02
+Constraint: 24 -> 0: 0.06 0.01 0.04
+Fetching 1/4...
+Starting ICP (sizes: 434 429)
+ICP T:-0.50 -0.48 R:-0.10
+Constraint: 20 -> 12: -0.27 -0.04 0.09
+Fetching 1/12...
+Starting ICP (sizes: 436 429)
+ICP T:0.0 0.02 R:-0.05
+Constraint: 28 -> 4: 0.36 -0.01 0.03
+Fetching 1/6...
+Starting ICP (sizes: 423 405)
+ICP T:-0.63 -0.45 R:-0.13
+Constraint: 22 -> 10: 0.13 0.03 0.07
+Fetching 1/10...
+Starting ICP (sizes: 418 409)
+ICP T:-0.04 -0.17 R:-0.06
+Constraint: 26 -> 6: -0.0 0.09 0.10
+Fetching 1/15...
+Starting ICP (sizes: 471 465)
+ICP T:-0.38 0.36 R:-0.11
+Constraint: 31 -> 15: -0.01 -0.63 0.12
+0/0: -0.985 0.005 -0.003
+0/1: 0.084 0.006 -0.001
+0/2: 1.153 0.097 -0.065
+0/3: 1.003 -0.935 -0.048
+0/4: 1.071 -2.395 -0.004
+0/5: 0.070 -2.270 0.002
+0/6: -1.499 -2.368 0.044
+0/7: -1.444 -1.317 0.014
+0/8: -1.469 -0.259 -0.021
+0/9: -1.476 0.781 0.047
+0/10: -1.541 1.671 -0.041
+0/11: -0.514 1.521 -0.021
+0/12: 0.512 1.426 -0.014
+0/13: 1.776 1.273 0.064
+0/14: 1.575 0.313 0.002
+0/15: 1.427 -0.678 -0.006
+1/0: -1.008 -0.019 -0.007
+1/1: 0.053 -0.120 -0.002
+1/2: 1.124 -0.163 -0.024
+1/3: 1.0 0.904 -0.026
+1/4: 1.092 2.050 -0.009
+1/5: 0.056 1.896 -0.044
+1/6: -1.313 1.952 0.017
+1/7: -1.285 0.877 -0.027
+1/8: -1.265 -0.139 -0.020
+1/9: -1.255 -1.190 0.002
+1/10: -1.300 -2.380 0.002
+1/11: -0.244 -2.347 -0.025
+1/12: 0.829 -2.348 0.013
+1/13: 2.116 -2.322 0.014
+1/14: 1.994 -1.242 -0.025
+1/15: 1.956 -0.183 -0.016
+====
+RCM time: 14
+Size of H is 352
+Bandwidth is 20
+Size of L is 1171
+Cholesky time: 70
+Loop time: 143
+
+RCM time: 11
+Size of H is 352
+Bandwidth is 20
+Size of L is 1166
+Cholesky time: 75
+Loop time: 144
+
+RCM time: 10
+Size of H is 352
+Bandwidth is 20
+Size of L is 1162
+Cholesky time: 71
+Loop time: 140
+
+0/0: -0.985 0.005 -0.003
+0/1: 0.121 0.009 0.013
+0/2: 1.226 0.118 -0.034
+0/3: 1.147 -0.830 0.030
+0/4: 1.369 -2.191 0.051
+0/5: 0.405 -2.077 0.007
+0/6: -1.123 -2.138 0.063
+0/7: -1.028 -1.074 0.012
+0/8: -0.991 -0.003 0.019
+0/9: -0.995 1.080 0.091
+0/10: -1.053 2.011 0.051
+0/11: -0.041 1.950 0.044
+0/12: 0.965 1.917 0.031
+0/13: 2.241 1.740 0.142
+0/14: 2.124 0.687 0.096
+0/15: 2.078 -0.394 0.090
+1/0: -0.973 -0.033 0.005
+1/1: 0.112 -0.107 0.019
+1/2: 1.207 -0.111 -0.007
+1/3: 1.086 0.881 -0.063
+1/4: 1.242 1.951 -0.065
+1/5: 0.189 1.858 -0.090
+1/6: -1.186 1.978 -0.016
+1/7: -1.133 0.956 -0.025
+1/8: -1.051 -0.007 -0.046
+1/9: -1.055 -1.053 -0.023
+1/10: -1.119 -2.236 -0.040
+1/11: -0.066 -2.212 -0.024
+1/12: 1.002 -2.176 0.018
+1/13: 2.282 -2.063 0.011
+1/14: 2.156 -0.902 -0.035
+1/15: 2.121 0.236 -0.038
