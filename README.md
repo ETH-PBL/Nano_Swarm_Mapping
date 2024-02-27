@@ -1,3 +1,20 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
+
+[contributors-shield]: https://img.shields.io/github/contributors/ETH-PBL/Nano_Swarm_Mapping.svg?style=flat-square
+[contributors-url]: https://github.com/ETH-PBL/Nano_Swarm_Mapping/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ETH-PBL/Nano_Swarm_Mapping.svg?style=flat-square
+[forks-url]: https://github.com/ETH-PBL/Nano_Swarm_Mapping/network/members
+[stars-shield]: https://img.shields.io/github/stars/ETH-PBL/Nano_Swarm_Mapping.svg?style=flat-square
+[stars-url]: https://github.com/ETH-PBL/Nano_Swarm_Mapping/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ETH-PBL/Nano_Swarm_Mapping.svg?style=flat-square
+[issues-url]: https://github.com/ETH-PBL/Nano_Swarm_Mapping/issues
+[license-shield]: https://img.shields.io/github/license/ETH-PBL/Nano_Swarm_Mapping.svg?style=flat-square
+[license-url]: https://github.com/ETH-PBL/Nano_Swarm_Mapping/blob/master/LICENSE
+
 <h1 align="center">Fully Onboard SLAM for Distributed Mapping With a Swarm of Nano-Drones</h1>
 
 <p align="center"><b>Carl Friess, Vlad Niculescu, Tommaso Polonelli, Michele Magno, Luca Benini</b></p>
