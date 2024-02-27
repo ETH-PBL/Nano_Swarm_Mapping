@@ -19,7 +19,10 @@
 
 <p align="center"><b>Carl Friess, Vlad Niculescu, Tommaso Polonelli, Michele Magno, Luca Benini</b></p>
 
-<p align="center"><img src="https://github.com/carlfriess/tof-swarm-mapping/assets/4226459/593602f2-75b8-4e68-9de3-4c8e97fcfd24" align="center" width="50%" /></p>
+<p float="center">
+  <img src="img/cover.JPG" width="55%" />
+  <img src="img/scan.JPG" width="35%" /> 
+</p>
 
 ## About the Project
 
