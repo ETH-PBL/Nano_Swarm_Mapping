@@ -97,3 +97,6 @@ We provide two Jupyter Notebooks showing how the data collected from the swarm c
 
 - [`evaluation/swarm-slam-evaluation.ipynb`](https://github.com/ETH-PBL/Nano_Swarm_Mapping/blob/main/evaluation/swarm-slam-evaluation.ipynb)
 - [`evaluation/gridmap.ipynb`](https://github.com/ETH-PBL/Nano_Swarm_Mapping/blob/main/evaluation/gridmap.ipynb)
+
+## Acknowledgements
+This work received support from the Swiss National Science Foundation Project 207913 "TinyTrainer: On-chip Training for TinyML devices".
